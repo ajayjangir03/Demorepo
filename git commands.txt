@@ -1,0 +1,33 @@
+git 
+
+git init - > Create a git repo
+
+git status  -> to check git status 
+
+git add --a  -> to add all untracked files from working repo. to staging arae 
+
+git commit -m "Commit name" --> Commit the files
+
+touch <filename which you want to create with extention>
+
+rm -rf  -> delete 
+
+git restore <file name > - > restore all changes in workingg directory
+
+git checkout -b <Branch name> -> to create new branch 
+
+git commit -a -m "commit name" -> to skip staging area
+
+git branch -> show all branches
+
+git branch -v 
+
+git branch --merged          -> Already merged branched 
+
+git barnch --no -merged      -> not merged branched 
+
+git branch -d  <branch name>  -> For deleting the branch  (  gives error if branch not merged )
+
+git branch -D  <branch name>   -> For deleting the branch ( no error if branch not merged )
+
+
