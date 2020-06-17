@@ -24,7 +24,7 @@ git branch -v
 
 git branch --merged          -> Already merged branched 
 
-git barnch --no -merged      -> not merged branched 
+git branch  --no-merged     -> not merged branched 
 
 git branch -d  <branch name>  -> For deleting the branch  (  gives error if branch not merged )
 
