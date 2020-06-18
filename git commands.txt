@@ -30,4 +30,18 @@ git branch -d  <branch name>  -> For deleting the branch  (  gives error if bran
 
 git branch -D  <branch name>   -> For deleting the branch ( no error if branch not merged )
 
+git remote    -> check remote status
 
+git remote -v  -> check rmemote
+
+git remote add origin https://github.com/ajayjangir03/Demorepo.git
+
+git push -u origin master
+-----------------------------------------
+echo "# Demorepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ajayjangir03/Demorepo.git
+git push -u origin master
+------------------------------------
